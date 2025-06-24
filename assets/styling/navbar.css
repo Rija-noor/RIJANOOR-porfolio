@@ -1,0 +1,20 @@
+.header{
+    position: sticky;
+    z-index: 999;
+    top: 0%;
+}
+
+.nav-link{
+    transition: 0.2s ease-in infinite ;
+    font-size: medium;
+}
+.nav-link:hover{
+    color: red !important; 
+    font-size: large;
+    font-weight: bolder;
+}
+.navbar-brand:hover{
+    color: red !important;
+    font-weight: bolder;
+
+}
