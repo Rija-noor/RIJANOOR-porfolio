@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styling/navbar.css">
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <style>
+        .abt-content{
+            margin: 15px;
+            padding: 10px;
+            
+        }
+        .skills-section {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.skills-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.skills-section p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.progress-bar {
+  background-color: #eee;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar div {
+  background-color: BLACK; /* red color progress bar */
+  height: 100%;
+  color: WHITE;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+.email-link {
+    color: black;
+    text-decoration: none;
+}
+.email-link:hover{
+    color: red;
+    text-decoration: none;
+}
+
+    </style>
+<body>
+   
+    <header></header>
+    <div class="container-fluid">
+        <h1 class="text-center mt-3 mb-3 border-bottom border-1" data-aos="fade-up" >ABOUT ME</h1>
+        <div class="row">
+            <div class="col-5">
+                <div class="img m-4 p-4">
+                    <img src="assets/images/img.jpg" alt="img" height="400px" width="450px" class="img border border-dark border-3 rounded shadow-lg hover-effect" data-aos="fade-up">
+                </div>
+            </div>
+            <div class="col-7">
+                <h3 class="text-center m-3 border-bottom border-1"  data-aos="fade-up" >RIJA-NOOR</h3>
+                <h4 class="text-center m-2 border-bottom border-1"  data-aos="fade-up">FRONT_END DEVELOPER </h4>
+                  <h5 class="abt-content border-bottom border-1"  data-aos="fade-up">Birthday: 10 December 2005</h5>
+                  <h5 class="abt-content border-bottom border-1" data-aos="fade-up"><a href="mailto:rnoorifynexa@gmail.com" class="email-link">rnoorifynexa@gmail.com</a></h5>
+                  <h5 class="abt-content border-bottom border-1" data-aos="fade-up">Age: 19</h5>
+                  <h5 class="abt-content border-bottom border-1" data-aos="fade-up">Education: currently enrolled in BCOM (from allama iqbal open university)
+                    + 
+                      Doing 3 years Diploma In Software Engineering (from Aptech)
+                  </h5>
+                  <h5></h5>
+                
+
+            </div>
+        </div>
+    
+                 <section class="skills-section">
+  <h1 class="border-bottom border-1"  data-aos="fade-up">SKILLS</h1>
+  <p class="border-bottom border-1">As a passionate beginner in web development, I have built a solid foundation in HTML, CSS, JavaScript, and Bootstrap. I enjoy creating responsive and visually appealing websites, and I am continuously learning to improve my skills and explore more advanced technologies.</p>
+  <div class="skills-container">
+    <div class="skill"  data-aos="fade-up">
+      <span>HTML</span>
+      <div class="progress-bar hover-effect"><div style="width: 100%">100%</div></div>
+    </div>
+    <div class="skill"  data-aos="fade-up">
+      <span>CSS</span>
+      <div class="progress-bar hover-effect"><div style="width: 90%">90%</div></div>
+    </div>
+    <div class="skill" data-aos="fade-up">
+      <span>JAVASCRIPT</span>
+      <div class="progress-bar hover-effect"><div style="width: 75%">75%</div></div>
+    </div>
+    <div class="skill" data-aos="fade-up">
+      <span>BOOTSTRAP</span>
+      <div class="progress-bar hover-effect"><div style="width: 90%">90%</div></div>
+    </div>
+  </div>
+</section>
+
+            </div>
+            <footer class="bg-light text-center py-4">
+  <div class="container">
+    <p class="mb-2">&copy; Copyright <strong>RIJA</strong> All Rights Reserved</p>
+
+    <!-- Social Icons -->
+    <div class="d-flex justify-content-center mb-3">
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-linkedin"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="assets/js/navbar.js"></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

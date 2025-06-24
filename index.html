@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styling/navbar.css">
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+<style>
+    /* hero section */
+    .carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-button a {
+  background-color: white;
+  color: black;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.overlay-button a:hover {
+  background-color: red;
+  color: white;
+}
+/* footer */
+footer a.btn {
+    color: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+}
+footer a.btn:hover{
+    background-color: red;
+}
+</style>
+<body>
+    <!-- navbar -->
+    <header></header>
+    <!-- hero section  -->
+     <div class="carousel-slide">
+  <img src="assets/images/baner.png" alt="Carousel">
+
+  <div class="overlay-button">
+    <a href="about.html" data-aos="fade-up">Know More About Me</a>
+  </div>
+</div>
+<footer class="bg-light text-center py-4">
+  <div class="container">
+    <p class="mb-2">&copy; Copyright <strong>RIJA</strong> All Rights Reserved</p>
+
+    <!-- Social Icons -->
+    <div class="d-flex justify-content-center mb-3">
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="#" class="mx-2 btn btn-outline-secondary rounded-circle">
+        <i class="bi bi-linkedin"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="assets/js/navbar.js"></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
